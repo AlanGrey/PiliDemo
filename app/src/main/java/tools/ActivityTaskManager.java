@@ -37,8 +37,9 @@ public class ActivityTaskManager {
      * @param activity
      */
     public Activity putActivity(String name, Activity activity) {
+          Log.d("tag","grey test other");
         return activityMap.put(name, activity);
-        Log.d("tag","grey test other");
+ 
     }
 
     /**
